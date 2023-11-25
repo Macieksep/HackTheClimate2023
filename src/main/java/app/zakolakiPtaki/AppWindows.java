@@ -325,7 +325,7 @@ public class AppWindows {
         arr[1] = (int) Math.round(emission/0.133);       //samolot
         arr[2] = (int) Math.round(emission/0.192);      //benzin
         arr[3] = (int) Math.round(emission/0.122);      //dizelek
-        arr[4] = (int) Math.round(emission/0.01825);    //oddech na osobe
+        arr[4] = (int) Math.round(emission/(0.00013/15));    //oddech na osobe
         return arr;
     }
 
